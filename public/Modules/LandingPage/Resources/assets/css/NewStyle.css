@@ -1,0 +1,31 @@
+.LoginToShop{
+    background-color: rgb(71, 178, 228);
+    border-color: rgb(71, 178, 228);
+    box-shadow: 0 3px 30px -2px rgba(20,45,100,.25);
+    border-radius: 100px;
+    color: #fff;
+}
+.BannerHomePage{
+
+}
+.BannerHomePage h1{
+    color: #fff;
+}
+.BannerHomePage h6{
+    color: #fff;
+}
+.btn-outline-dark{
+    border-color: rgb(71, 178, 228) !important;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,287 @@
+[2024-02-06 09:25:36] local.INFO:  *********************************** API START ***********************************   
+[2024-02-06 09:25:36] local.INFO: API URL  
+[2024-02-06 09:25:36] local.INFO: http://anaonline.io/analive/api/admin/adminlogin  
+[2024-02-06 09:25:36] local.INFO: request  
+[2024-02-06 09:25:36] local.INFO: array (
+  'email' => 'superadmin@example.com',
+  'password' => '1234',
+)  
+[2024-02-06 09:25:36] local.INFO: 
+  
+[2024-02-06 09:25:36] local.INFO: response  
+[2024-02-06 09:25:36] local.INFO: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Cache-Control:               no-cache, private
+Content-Type:                application/json
+Date:                        Tue, 06 Feb 2024 09:25:36 GMT
+X-Ratelimit-Limit:           1800
+X-Ratelimit-Remaining:       1799
+
+{"status":1,"message":"successfull","data":{"id":1,"name":"SuperAdmin","email":"superadmin@example.com","image":"themes\/grocery\/uploads\/avatar.png","mobile":"9999999999","current_store":1,"token":"1|ivV8SJZqDRKFXxq60pvK5qAbcaRaH3KQAAzMDNkI42c86e7a","token_type":"Bearer"}}  
+[2024-02-06 09:25:36] local.INFO:  *********************************** API END ***********************************   
+[2024-02-06 09:25:37] local.INFO:  *********************************** API START ***********************************   
+[2024-02-06 09:25:37] local.INFO: API URL  
+[2024-02-06 09:25:37] local.INFO: http://anaonline.io/analive/api/admin/base_url  
+[2024-02-06 09:25:37] local.INFO: request  
+[2024-02-06 09:25:37] local.INFO: array (
+)  
+[2024-02-06 09:25:37] local.INFO: 
+  
+[2024-02-06 09:25:37] local.INFO: response  
+[2024-02-06 09:25:37] local.INFO: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Cache-Control:               no-cache, private
+Content-Type:                application/json
+Date:                        Tue, 06 Feb 2024 09:25:37 GMT
+X-Ratelimit-Limit:           1800
+X-Ratelimit-Remaining:       1798
+
+{"status":1,"message":"successfull","data":{"image_url":"http:\/\/anaonline.io\/analive\/","payment_url":"http:\/\/anaonline.io\/analive"}}  
+[2024-02-06 09:25:37] local.INFO:  *********************************** API END ***********************************   
+[2024-02-06 09:25:37] local.INFO:  *********************************** API START ***********************************   
+[2024-02-06 09:25:37] local.INFO: API URL  
+[2024-02-06 09:25:37] local.INFO: http://anaonline.io/analive/api/admin/dashboard  
+[2024-02-06 09:25:37] local.INFO: request  
+[2024-02-06 09:25:37] local.INFO: array (
+)  
+[2024-02-06 09:25:37] local.INFO: 
+  
+[2024-02-06 09:25:37] local.INFO: response  
+[2024-02-06 09:25:37] local.INFO: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Cache-Control:               no-cache, private
+Content-Type:                application/json
+Date:                        Tue, 06 Feb 2024 09:25:37 GMT
+X-Ratelimit-Limit:           1800
+X-Ratelimit-Remaining:       1799
+
+{"status":1,"message":"successfull","data":{"user":{"name":"SuperAdmin","image":"themes\/grocery\/uploads\/avatar.png"},"store":[{"id":1,"name":"Demo Store"}],"qr-code":{"url":"http:\/\/anaonline.io\/analive\/demo-store","name":"Demo Store"},"products":0,"sales":0,"order":0,"product":[],"recent_order":[],"coupons":[],"orderchart":[{"date":"31-Jan","order":0},{"date":"01-Feb","order":0},{"date":"02-Feb","order":0},{"date":"03-Feb","order":0},{"date":"04-Feb","order":0},{"date":"05-Feb","order":0},{"date":"06-Feb","order":0}],"visitorchart":[{"date":"23-Jan","pageview":0,"unique_pageview":0},{"date":"24-Jan","pageview":0,"unique_pageview":0},{"date":"25-Jan","pageview":0,"unique_pageview":0},{"date":"26-Jan","pageview":0,"unique_pageview":0},{"date":"27-Jan","pageview":0,"unique_pageview":0},{"date":"28-Jan","pageview":0,"unique_pageview":0},{"date":"29-Jan","pageview":0,"unique_pageview":0},{"date":"30-Jan","pageview":0,"unique_pageview":0},{"date":"31-Jan","pageview":0,"unique_pageview":0},{"date":"01-Feb","pageview":0,"unique_pageview":0},{"date":"02-Feb","pageview":0,"unique_pageview":0},{"date":"03-Feb","pageview":0,"unique_pageview":0},{"date":"04-Feb","pageview":0,"unique_pageview":0},{"date":"05-Feb","pageview":0,"unique_pageview":0},{"date":"06-Feb","pageview":0,"unique_pageview":0}]}}  
+[2024-02-06 09:25:37] local.INFO:  *********************************** API END ***********************************   
+[2024-02-06 09:26:05] local.INFO:  *********************************** API START ***********************************   
+[2024-02-06 09:26:05] local.INFO: API URL  
+[2024-02-06 09:26:05] local.INFO: http://anaonline.io/analive/api/admin/productlist  
+[2024-02-06 09:26:05] local.INFO: request  
+[2024-02-06 09:26:05] local.INFO: array (
+  'store_id' => '1',
+  'page' => '1',
+)  
+[2024-02-06 09:26:05] local.INFO: 
+  
+[2024-02-06 09:26:05] local.INFO: response  
+[2024-02-06 09:26:05] local.INFO: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Cache-Control:               no-cache, private
+Content-Type:                application/json
+Date:                        Tue, 06 Feb 2024 09:26:05 GMT
+X-Ratelimit-Limit:           1800
+X-Ratelimit-Remaining:       1798
+
+{"status":1,"message":"successfull","data":{"current_page":1,"data":[],"first_page_url":"http:\/\/anaonline.io\/analive\/api\/admin\/productlist?page=1","from":null,"last_page":1,"last_page_url":"http:\/\/anaonline.io\/analive\/api\/admin\/productlist?page=1","links":[{"url":null,"label":"pagination.previous","active":false},{"url":"http:\/\/anaonline.io\/analive\/api\/admin\/productlist?page=1","label":"1","active":true},{"url":null,"label":"pagination.next","active":false}],"next_page_url":null,"path":"http:\/\/anaonline.io\/analive\/api\/admin\/productlist","per_page":10,"prev_page_url":null,"to":null,"total":0}}  
+[2024-02-06 09:26:05] local.INFO:  *********************************** API END ***********************************   
+[2024-02-06 09:26:05] local.INFO:  *********************************** API START ***********************************   
+[2024-02-06 09:26:05] local.INFO: API URL  
+[2024-02-06 09:26:05] local.INFO: http://anaonline.io/analive/api/admin/createproduct  
+[2024-02-06 09:26:05] local.INFO: request  
+[2024-02-06 09:26:05] local.INFO: array (
+  'store_id' => '1',
+)  
+[2024-02-06 09:26:05] local.INFO: 
+  
+[2024-02-06 09:26:05] local.INFO: response  
+[2024-02-06 09:26:05] local.INFO: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Cache-Control:               no-cache, private
+Content-Type:                application/json
+Date:                        Tue, 06 Feb 2024 09:26:05 GMT
+X-Ratelimit-Limit:           1800
+X-Ratelimit-Remaining:       1797
+
+{"status":0,"message":"fail","data":{"message":"Category data not found"}}  
+[2024-02-06 09:26:05] local.INFO:  *********************************** API END ***********************************   
+[2024-02-06 09:26:06] local.INFO:  *********************************** API START ***********************************   
+[2024-02-06 09:26:06] local.INFO: API URL  
+[2024-02-06 09:26:06] local.INFO: http://anaonline.io/analive/api/admin/orderlist  
+[2024-02-06 09:26:06] local.INFO: request  
+[2024-02-06 09:26:06] local.INFO: array (
+  'store_id' => '1',
+  'page' => '1',
+)  
+[2024-02-06 09:26:06] local.INFO: 
+  
+[2024-02-06 09:26:06] local.INFO: response  
+[2024-02-06 09:26:06] local.INFO: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Cache-Control:               no-cache, private
+Content-Type:                application/json
+Date:                        Tue, 06 Feb 2024 09:26:06 GMT
+X-Ratelimit-Limit:           1800
+X-Ratelimit-Remaining:       1796
+
+{"status":1,"message":"successfull","data":{"current_page":1,"data":[],"first_page_url":"http:\/\/anaonline.io\/analive\/api\/admin\/orderlist?page=1","from":null,"last_page":1,"last_page_url":"http:\/\/anaonline.io\/analive\/api\/admin\/orderlist?page=1","links":[{"url":null,"label":"pagination.previous","active":false},{"url":"http:\/\/anaonline.io\/analive\/api\/admin\/orderlist?page=1","label":"1","active":true},{"url":null,"label":"pagination.next","active":false}],"next_page_url":null,"path":"http:\/\/anaonline.io\/analive\/api\/admin\/orderlist","per_page":10,"prev_page_url":null,"to":null,"total":0}}  
+[2024-02-06 09:26:06] local.INFO:  *********************************** API END ***********************************   
+[2024-02-06 09:31:14] local.INFO:  *********************************** API START ***********************************   
+[2024-02-06 09:31:14] local.INFO: API URL  
+[2024-02-06 09:31:14] local.INFO: http://anaonline.io/analive/api/admin/categorylist  
+[2024-02-06 09:31:14] local.INFO: request  
+[2024-02-06 09:31:14] local.INFO: array (
+  'store_id' => '1',
+  'page' => '1',
+)  
+[2024-02-06 09:31:14] local.INFO: 
+  
+[2024-02-06 09:31:14] local.INFO: response  
+[2024-02-06 09:31:14] local.INFO: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Cache-Control:               no-cache, private
+Content-Type:                application/json
+Date:                        Tue, 06 Feb 2024 09:31:14 GMT
+X-Ratelimit-Limit:           1800
+X-Ratelimit-Remaining:       1799
+
+{"status":1,"message":"successfull","data":{"current_page":1,"data":[],"first_page_url":"http:\/\/anaonline.io\/analive\/api\/admin\/categorylist?page=1","from":null,"last_page":1,"last_page_url":"http:\/\/anaonline.io\/analive\/api\/admin\/categorylist?page=1","links":[{"url":null,"label":"pagination.previous","active":false},{"url":"http:\/\/anaonline.io\/analive\/api\/admin\/categorylist?page=1","label":"1","active":true},{"url":null,"label":"pagination.next","active":false}],"next_page_url":null,"path":"http:\/\/anaonline.io\/analive\/api\/admin\/categorylist","per_page":10,"prev_page_url":null,"to":null,"total":0}}  
+[2024-02-06 09:31:14] local.INFO:  *********************************** API END ***********************************   
+[2024-02-06 09:31:21] local.INFO:  *********************************** API START ***********************************   
+[2024-02-06 09:31:21] local.INFO: API URL  
+[2024-02-06 09:31:21] local.INFO: http://anaonline.io/analive/api/admin/orderlist  
+[2024-02-06 09:31:21] local.INFO: request  
+[2024-02-06 09:31:21] local.INFO: array (
+  'store_id' => '1',
+  'page' => '1',
+)  
+[2024-02-06 09:31:21] local.INFO: 
+  
+[2024-02-06 09:31:21] local.INFO: response  
+[2024-02-06 09:31:21] local.INFO: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Cache-Control:               no-cache, private
+Content-Type:                application/json
+Date:                        Tue, 06 Feb 2024 09:31:21 GMT
+X-Ratelimit-Limit:           1800
+X-Ratelimit-Remaining:       1798
+
+{"status":1,"message":"successfull","data":{"current_page":1,"data":[],"first_page_url":"http:\/\/anaonline.io\/analive\/api\/admin\/orderlist?page=1","from":null,"last_page":1,"last_page_url":"http:\/\/anaonline.io\/analive\/api\/admin\/orderlist?page=1","links":[{"url":null,"label":"pagination.previous","active":false},{"url":"http:\/\/anaonline.io\/analive\/api\/admin\/orderlist?page=1","label":"1","active":true},{"url":null,"label":"pagination.next","active":false}],"next_page_url":null,"path":"http:\/\/anaonline.io\/analive\/api\/admin\/orderlist","per_page":10,"prev_page_url":null,"to":null,"total":0}}  
+[2024-02-06 09:31:21] local.INFO:  *********************************** API END ***********************************   
+[2024-02-06 09:31:22] local.INFO:  *********************************** API START ***********************************   
+[2024-02-06 09:31:22] local.INFO: API URL  
+[2024-02-06 09:31:22] local.INFO: http://anaonline.io/analive/api/admin/productlist  
+[2024-02-06 09:31:22] local.INFO: request  
+[2024-02-06 09:31:22] local.INFO: array (
+  'store_id' => '1',
+  'page' => '1',
+)  
+[2024-02-06 09:31:22] local.INFO: 
+  
+[2024-02-06 09:31:22] local.INFO: response  
+[2024-02-06 09:31:22] local.INFO: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Cache-Control:               no-cache, private
+Content-Type:                application/json
+Date:                        Tue, 06 Feb 2024 09:31:22 GMT
+X-Ratelimit-Limit:           1800
+X-Ratelimit-Remaining:       1797
+
+{"status":1,"message":"successfull","data":{"current_page":1,"data":[],"first_page_url":"http:\/\/anaonline.io\/analive\/api\/admin\/productlist?page=1","from":null,"last_page":1,"last_page_url":"http:\/\/anaonline.io\/analive\/api\/admin\/productlist?page=1","links":[{"url":null,"label":"pagination.previous","active":false},{"url":"http:\/\/anaonline.io\/analive\/api\/admin\/productlist?page=1","label":"1","active":true},{"url":null,"label":"pagination.next","active":false}],"next_page_url":null,"path":"http:\/\/anaonline.io\/analive\/api\/admin\/productlist","per_page":10,"prev_page_url":null,"to":null,"total":0}}  
+[2024-02-06 09:31:22] local.INFO:  *********************************** API END ***********************************   
+[2024-02-06 09:31:22] local.INFO:  *********************************** API START ***********************************   
+[2024-02-06 09:31:22] local.INFO: API URL  
+[2024-02-06 09:31:22] local.INFO: http://anaonline.io/analive/api/admin/createproduct  
+[2024-02-06 09:31:22] local.INFO: request  
+[2024-02-06 09:31:22] local.INFO: array (
+  'store_id' => '1',
+)  
+[2024-02-06 09:31:22] local.INFO: 
+  
+[2024-02-06 09:31:22] local.INFO: response  
+[2024-02-06 09:31:22] local.INFO: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Cache-Control:               no-cache, private
+Content-Type:                application/json
+Date:                        Tue, 06 Feb 2024 09:31:22 GMT
+X-Ratelimit-Limit:           1800
+X-Ratelimit-Remaining:       1796
+
+{"status":0,"message":"fail","data":{"message":"Category data not found"}}  
+[2024-02-06 09:31:22] local.INFO:  *********************************** API END ***********************************   
+[2024-02-06 09:34:24] local.INFO:  *********************************** API START ***********************************   
+[2024-02-06 09:34:24] local.INFO: API URL  
+[2024-02-06 09:34:24] local.INFO: http://anaonline.io/analive/api/admin/categorylist  
+[2024-02-06 09:34:24] local.INFO: request  
+[2024-02-06 09:34:24] local.INFO: array (
+  'store_id' => '1',
+  'page' => '1',
+)  
+[2024-02-06 09:34:24] local.INFO: 
+  
+[2024-02-06 09:34:24] local.INFO: response  
+[2024-02-06 09:34:24] local.INFO: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Cache-Control:               no-cache, private
+Content-Type:                application/json
+Date:                        Tue, 06 Feb 2024 09:34:24 GMT
+X-Ratelimit-Limit:           1800
+X-Ratelimit-Remaining:       1799
+
+{"status":1,"message":"successfull","data":{"current_page":1,"data":[],"first_page_url":"http:\/\/anaonline.io\/analive\/api\/admin\/categorylist?page=1","from":null,"last_page":1,"last_page_url":"http:\/\/anaonline.io\/analive\/api\/admin\/categorylist?page=1","links":[{"url":null,"label":"pagination.previous","active":false},{"url":"http:\/\/anaonline.io\/analive\/api\/admin\/categorylist?page=1","label":"1","active":true},{"url":null,"label":"pagination.next","active":false}],"next_page_url":null,"path":"http:\/\/anaonline.io\/analive\/api\/admin\/categorylist","per_page":10,"prev_page_url":null,"to":null,"total":0}}  
+[2024-02-06 09:34:24] local.INFO:  *********************************** API END ***********************************   
+[2024-02-06 09:34:27] local.INFO:  *********************************** API START ***********************************   
+[2024-02-06 09:34:27] local.INFO: API URL  
+[2024-02-06 09:34:27] local.INFO: http://anaonline.io/analive/api/admin/productlist  
+[2024-02-06 09:34:27] local.INFO: request  
+[2024-02-06 09:34:27] local.INFO: array (
+  'store_id' => '1',
+  'page' => '1',
+)  
+[2024-02-06 09:34:27] local.INFO: 
+  
+[2024-02-06 09:34:27] local.INFO: response  
+[2024-02-06 09:34:27] local.INFO: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Cache-Control:               no-cache, private
+Content-Type:                application/json
+Date:                        Tue, 06 Feb 2024 09:34:27 GMT
+X-Ratelimit-Limit:           1800
+X-Ratelimit-Remaining:       1798
+
+{"status":1,"message":"successfull","data":{"current_page":1,"data":[],"first_page_url":"http:\/\/anaonline.io\/analive\/api\/admin\/productlist?page=1","from":null,"last_page":1,"last_page_url":"http:\/\/anaonline.io\/analive\/api\/admin\/productlist?page=1","links":[{"url":null,"label":"pagination.previous","active":false},{"url":"http:\/\/anaonline.io\/analive\/api\/admin\/productlist?page=1","label":"1","active":true},{"url":null,"label":"pagination.next","active":false}],"next_page_url":null,"path":"http:\/\/anaonline.io\/analive\/api\/admin\/productlist","per_page":10,"prev_page_url":null,"to":null,"total":0}}  
+[2024-02-06 09:34:27] local.INFO:  *********************************** API END ***********************************   
+[2024-02-06 09:34:27] local.INFO:  *********************************** API START ***********************************   
+[2024-02-06 09:34:27] local.INFO: API URL  
+[2024-02-06 09:34:27] local.INFO: http://anaonline.io/analive/api/admin/createproduct  
+[2024-02-06 09:34:27] local.INFO: request  
+[2024-02-06 09:34:27] local.INFO: array (
+  'store_id' => '1',
+)  
+[2024-02-06 09:34:27] local.INFO: 
+  
+[2024-02-06 09:34:27] local.INFO: response  
+[2024-02-06 09:34:27] local.INFO: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Cache-Control:               no-cache, private
+Content-Type:                application/json
+Date:                        Tue, 06 Feb 2024 09:34:27 GMT
+X-Ratelimit-Limit:           1800
+X-Ratelimit-Remaining:       1797
+
+{"status":0,"message":"fail","data":{"message":"Category data not found"}}  
+[2024-02-06 09:34:27] local.INFO:  *********************************** API END ***********************************   
+[2024-02-06 09:34:28] local.INFO:  *********************************** API START ***********************************   
+[2024-02-06 09:34:28] local.INFO: API URL  
+[2024-02-06 09:34:28] local.INFO: http://anaonline.io/analive/api/admin/categorylist  
+[2024-02-06 09:34:28] local.INFO: request  
+[2024-02-06 09:34:28] local.INFO: array (
+  'store_id' => '1',
+  'page' => '1',
+)  
+[2024-02-06 09:34:28] local.INFO: 
+  
+[2024-02-06 09:34:28] local.INFO: response  
+[2024-02-06 09:34:28] local.INFO: HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Cache-Control:               no-cache, private
+Content-Type:                application/json
+Date:                        Tue, 06 Feb 2024 09:34:28 GMT
+X-Ratelimit-Limit:           1800
+X-Ratelimit-Remaining:       1796
+
+{"status":1,"message":"successfull","data":{"current_page":1,"data":[],"first_page_url":"http:\/\/anaonline.io\/analive\/api\/admin\/categorylist?page=1","from":null,"last_page":1,"last_page_url":"http:\/\/anaonline.io\/analive\/api\/admin\/categorylist?page=1","links":[{"url":null,"label":"pagination.previous","active":false},{"url":"http:\/\/anaonline.io\/analive\/api\/admin\/categorylist?page=1","label":"1","active":true},{"url":null,"label":"pagination.next","active":false}],"next_page_url":null,"path":"http:\/\/anaonline.io\/analive\/api\/admin\/categorylist","per_page":10,"prev_page_url":null,"to":null,"total":0}}  
+[2024-02-06 09:34:28] local.INFO:  *********************************** API END ***********************************   

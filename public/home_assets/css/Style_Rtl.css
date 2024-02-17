@@ -1,0 +1,284 @@
+body{
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+    text-align: start;
+}
+.btn{
+        font-family: 'Cairo', sans-serif;
+}
+ button{
+          font-family: 'Cairo', sans-serif;
+}
+.popover-body{
+    font-family: 'Cairo', sans-serif;
+}
+.TutorialsSection{
+    direction: ltr;
+}
+.partnersSction {
+    direction: ltr;
+}
+footer .menu-inner li {
+    float: right;
+}
+.menu-inner li:before {
+    right: 0;
+    left: auto;
+}
+.footer-bar > .container > span:last-child {
+    float: left;
+}
+.text-list-bold li p {
+    margin: 0 15px 0 0px;
+}
+.icon-links a {
+    margin-right: 0;
+    margin-left: 15px;
+}
+.cnt-box-top-icon > i {
+    text-align: right;
+}
+
+.btn-text:not(.btn-video):after {
+    content: "\68";
+    right: auto;
+    left: -40px;
+
+}
+
+@keyframes btn-text-anima {
+    0% {
+        left: -30px;
+        right: auto;
+        opacity: 0;
+    }
+
+    60% {
+        left: -40px;
+        right: auto;
+        opacity: 1;
+    }
+
+    100% {
+        left: -45px;
+        right: auto;
+        opacity: 0;
+    }
+}
+
+.btn-text {
+
+    margin-left: 35px;
+    margin-right: 0;
+}
+.menu-cnt > ul, .menu-inner > ul {
+    float: right;
+}
+
+body > nav .menu-brand {
+    float: right;
+}
+
+.accordion-list > li > a {
+padding-left: 0;
+    padding-right: 45px;
+}
+.accordion-list > li > a:before {
+    right: 0;
+    left: auto;
+}
+.icon-links-grid a:first-child {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+.icon-links-grid a:last-of-type {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+.FormSelling .FormSellingForm .tab-nav {
+    margin-bottom: 30px;
+    direction: ltr;
+}
+
+    .form-check {
+    padding-right: 1.5em;
+    padding-left: 0;
+}
+.form-check .form-check-input {
+    float: right;
+    margin-right: -1.5em;
+    margin-left: 0;
+}
+
+.cnt-pricing-table {
+    text-align: right;
+    direction: rtl;
+}
+
+.cnt-pricing-table > ul > li {
+    padding: 10px 40px 10px 20px;
+}
+.cnt-pricing-table > ul > li:before {
+    right: 15px;
+    left: auto;
+}
+.input-append .form-control {
+    direction: rtl;
+}
+.input-append {
+    position: relative;
+    direction: ltr;
+}
+.modal-header .btn-close {
+    padding: 0.5rem 0.5rem;
+    margin: -0.5rem -0.5rem auto;
+}
+.breadcrumb li a {
+
+    padding-right: 0;
+    padding-left: 15px;
+    margin-right: 0;
+    margin-left: 15px;
+}
+.breadcrumb li a:after {
+    left: -3px;
+    right: auto;
+}
+
+
+.light .menu-btn:before{
+    color: #fff !important
+}
+
+
+.AboutUsSection h2{
+        text-align: start;
+}
+.AboutUsSection p{
+        text-align: start;
+}
+
+.AboutUsSection a{
+        text-align: start;
+        display: block;
+}
+
+.FeaturesSection ul li{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.FormSelling .FormSellingForm .form-group .LableText span {
+    margin: 0 7px;
+}
+.cnt-pricing-table > ul {
+    min-height: 285px !important;
+}
+
+.cnt-pricing-table > ul > li {
+    font-size: 14px;
+}
+
+
+
+.BannerSection{
+    height: auto;
+}
+
+.BannerSection p{
+    font-size: 15px;
+}
+
+.cnt-box.boxed .caption{
+    text-align: center;
+}
+
+.cnt-box-top-icon.boxed > i{
+    text-align: center;
+}
+
+.FormSelling .FormSellingForm .form-group .LableText span{
+        transform: rotateY(180deg);
+}
+.FormSelling .FormSellingForm h4 span{
+    transform: rotateY(180deg);
+}
+.DiscountBox h2 span .Info{
+        transform: rotateY(180deg);
+}
+
+
+.DiscountBox .DiscodeInput .ApplayDiscount {
+    left: 0;
+    right: auto;
+}
+
+
+.RolresPaymentItem .rightSide p .Info{
+     transform: rotateY(180deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .loginBTN{
+        text-align: center !important;
+    }
+
+
+@media(max-width:768px){
+    body > nav .menu-brand {
+    float: left;
+}
+    .menu-cnt > ul, .menu-inner > ul {
+    float: left;
+}
+
+.menu-right > .lan-menu {
+    margin: 15px;
+    height: auto;
+    display: flow-root;
+        padding: 0;
+}
+    nav.light .menu-cnt a {
+    color: rgb(68, 68, 68) !important;
+    text-align: start;
+}
+
+    .lan-menu li a img {
+    left: auto;
+    right: -10px;
+}
+
+    .menu-transparent .lan-menu > li > a{
+        background: #fff0 !important
+    }
+    .loginBTN a{
+            height: 45px !important;
+    line-height: 45px !important;
+            background: #fff0 !important;
+        text-align: center !important;
+    }
+    .FeaturesSection {
+    direction: ltr;
+    text-align: right;
+}
+.FeaturesSection ul li {
+    display: flex;
+    direction: rtl;
+}
+
+}
+
