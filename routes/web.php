@@ -112,6 +112,13 @@ require __DIR__.'/auth.php';
 //     return redirect()->route('landing_page');
 
 // })->middleware(['xss']);;
+Route::get ('/admin/chat', function() {
+    return view('chat.adminchat');
+});
+
+Route::get ('/superadmin/chat', function() {
+    return view('chat.superadminchat');
+});
 
 Route::fallback(function () {
     return redirect()->route('landing_page',request()->segments()[0]);
